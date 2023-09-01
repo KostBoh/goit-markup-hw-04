@@ -1,6 +1,5 @@
 .principles-list {
   display: flex;
-
   gap: 24px;
 }
 .principles-item {
@@ -95,7 +94,7 @@ button {
 .section-text {
   color: var(--main-tx-cl);
   line-height: 1.5;
-  letter-spacing: 0.02em;  
+  letter-spacing: 0.02em;
 }
 .section-text:not(:last-child) {
   margin-bottom: 120px;
@@ -155,7 +154,6 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -247,6 +245,8 @@ button {
 
 .hero {
   background-color: var(--main-bg-cl);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -258,12 +258,18 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-
   margin-bottom: 48px;
 }
-.hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+/* .hero {
+  background-image: url('../images/hero-bg.jpg'); 
+    background-size: contain;
+} */
+.hero-container {
+  /* background-image: url('../images/hero-bg.jpg');  */
+  /* border-image: no-repeat; */
+  /* background-size: contain; */
+/* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
+
 }
 
 .button-accent {
