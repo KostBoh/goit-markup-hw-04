@@ -368,7 +368,7 @@ button {
 
 .footer-socials {
   display: flex;
-  gap: 50px;
+  gap: 16px;
 
 }
 
@@ -379,6 +379,14 @@ button {
   padding-bottom: 16px;
 }
 
+.socials-icon {
+  fill: #F4F4FD;
+}
+
+.socials-icon:hover,
+.socials-icon:focus {
+  fill: #F4F4FD;
+}
 
 /* Project */
 
