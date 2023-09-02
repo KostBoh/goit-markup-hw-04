@@ -244,9 +244,22 @@ button {
 /* Hero styles */
 
 .hero {
+  /* background-color: var(--main-bg-cl); */
+  
+}
+
+.hero-container {
   background-color: var(--main-bg-cl);
+  background: var(--GREY, rgba(46, 47, 66, 0.70));
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url('../images/hero-bg.jpg');
+  border-image: no-repeat;
+  background-size: contain;
+  
 }
 
 .hero-title {
@@ -259,17 +272,6 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 48px;
-}
-/* .hero {
-  background-image: url('../images/hero-bg.jpg'); 
-    background-size: contain;
-} */
-.hero-container {
-  /* background-image: url('../images/hero-bg.jpg');  */
-  /* border-image: no-repeat; */
-  /* background-size: contain; */
-/* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
-
 }
 
 .button-accent {
@@ -308,7 +310,7 @@ button {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* Section styles */
+/* Section styles  */
 
 .principles {
   padding-top: 120px;
