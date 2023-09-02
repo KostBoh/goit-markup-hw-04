@@ -17,6 +17,7 @@
   --light-cl: #fff;
 }
 
+
 *,
 *::after,
 *::before {
@@ -341,6 +342,11 @@ button {
   padding-bottom: 100px;
   padding-top: 100px;
 }
+
+.footer-container {
+  display: flex;
+}
+
 .footer-logo-accent {
   color: #f4f4fd;
 }
@@ -355,6 +361,26 @@ button {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-slogan {
+  padding-right: 120px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 50px;
+
+}
+
+.footer-socials-subject {
+  color: #fff;
+  font-family: roboto;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+
+
+/* Project */
 
 .project-list {
   display: flex;
