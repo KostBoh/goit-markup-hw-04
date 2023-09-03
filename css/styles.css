@@ -248,24 +248,29 @@ button {
 
 .hero {
   /* background-color: var(--main-bg-cl); */
-}
-
-.hero-container {
   background-color: var(--main-bg-cl);
-  max-width: 1440px;
+  
   height: 600px;
   flex-shrink: 0;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(
+  max-width: 1440px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-image: no-repeat;
-  background-size: cover;
+}
+
+.hero-container {
+  
+  
+  
+  /* border-image: no-repeat; */
+  
 }
 
 .hero-title {
