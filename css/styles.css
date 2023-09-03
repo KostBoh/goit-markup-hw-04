@@ -153,8 +153,10 @@ button {
 
 /* Header styles */
 .header {
-  border-bottom: 1px solid #e7e9fc; 
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -164,7 +166,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--white, #fff);   
+  background: var(--white, #fff);
 }
 
 .header-nav {
@@ -250,7 +252,7 @@ button {
 
 .hero-container {
   background-color: var(--main-bg-cl);
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   flex-shrink: 0;
   padding-top: 188px;
@@ -259,7 +261,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero-bg.jpg');
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   border-image: no-repeat;
@@ -563,11 +565,11 @@ button {
 }
 
 .project-item:hover .overlay {
-transform: translateY(0);
+  transform: translateY(0);
 }
 
 .overlay-text {
-  color:  #f4f4fd;
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 296px;
