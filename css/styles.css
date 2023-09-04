@@ -203,9 +203,11 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
 
-  position: relative;
+  color: #404bbf;
 
-  transition: color 300ms ease-in;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color 300ms ease-in; */
   /* transition-property: color;
     transition-duration: 300ms;
     transition-timing-function: ease-in;
@@ -219,7 +221,7 @@ button {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
@@ -227,10 +229,9 @@ button {
 .header-nav-link:focus,
 .header-address-link:focus {
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-item::after {
+.header-nav-link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -238,9 +239,7 @@ button {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-
-
-} 
+}
 
 .header-logo {
   display: flex;
