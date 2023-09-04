@@ -557,7 +557,7 @@ button {
 }
 
 .project-link:hover .overlay,
-.project-link:focus {
+.project-link:focus .overlay {
   transform: translateY(0%);
   transform: box-shadow;
 }
