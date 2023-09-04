@@ -546,7 +546,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;  
+  row-gap: 48px;
 }
 
 .project-link {
@@ -557,21 +557,17 @@ button {
 .project-link:hover,
 .project-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16),
-      0px 2px 1px rgba(46, 47, 66, 0.08);  
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-link:hover .overlay,
 .project-link:focus .overlay {
   transform: translateY(0%);
-  
-  }
-
-.project-item {
-  width: calc((100% - 24px * 2) / 3);  
 }
 
-
+.project-item {
+  width: calc((100% - 24px * 2) / 3);
+}
 
 .project-card-text {
   padding: 32px 16px;
@@ -596,7 +592,7 @@ button {
 /* overlay rename project-thumb */
 .overlay {
   transform: translateY(100%);
-  
+
   position: absolute;
   top: 0;
   left: 0;
@@ -604,10 +600,9 @@ button {
 
   width: 100%;
   height: 100%;
-  
+
   background-color: #4d5ae5;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .overlay-text {
   position: absolute;
