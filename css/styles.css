@@ -203,6 +203,8 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
 
+  position: relative;
+
   transition: color 300ms ease-in;
   /* transition-property: color;
     transition-duration: 300ms;
@@ -224,7 +226,7 @@ button {
 .header-address-link:hover,
 .header-nav-link:focus,
 .header-address-link:focus {
-  color: var(--accent-hover-cl);
+  color: #404bbf;
 }
 
 .header-logo {
