@@ -234,6 +234,7 @@ button {
 .header-nav-link::after {
   content: '';
   position: absolute;
+  width: 100%;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -262,16 +263,24 @@ button {
 
 .hero {
   /* background-color: var(--main-bg-cl); */
-  background-color: var(--main-bg-cl);
+  
 
   height: 600px;
   flex-shrink: 0;
   padding-top: 188px;
   padding-bottom: 188px;
+/*  */
+  /*  */
+  /*  */
+  margin: auto;
+/*  */
+/*  */
+/*  */
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: var(--main-bg-cl);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -281,6 +290,7 @@ button {
 
 .hero-container {
   /* border-image: no-repeat; */
+  max-width: 1440px;
 }
 
 .hero-title {
